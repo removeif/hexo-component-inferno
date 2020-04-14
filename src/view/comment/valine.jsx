@@ -113,7 +113,7 @@ Valine.Cacheable = cacheComponent(Valine, 'comment.valine', props => {
         visitor: comment.visitor,
         highlight: comment.highlight,
         recordIp: comment.record_ip,
-        jsUrl: helper.cdn('valine', '1.3.10', 'dist/Valine.min.js')
+        jsUrl: helper.cdn('valine', '1.4.4', 'dist/Valine.min.js')
     };
 });
 
